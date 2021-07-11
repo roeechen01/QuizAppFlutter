@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
   var _totalScore = 0;
 
   void _answerQuestion(int score) {
-    print('Answer chosen!');
+    print('Answer chosen!!');
     print(_questionIndex);
     setState(() {
       _totalScore += score;
